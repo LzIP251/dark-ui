@@ -1,0 +1,27 @@
+    sampleButton.Name = "sampleButton"
+    sampleButton.Parent = UIlayout
+    sampleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    sampleButton.BackgroundTransparency = 1.000
+    sampleButton.BorderSizePixel = 0
+    sampleButton.Position = UDim2.new(0.0129310349, 0, 0, 0)
+    sampleButton.Size = UDim2.new(0, 226, 0, 30)
+    sampleButton.ZIndex = 2
+    sampleButton.Font = Enum.Font.GothamSemibold
+    sampleButton.Text = "sampleText"
+    sampleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    sampleButton.TextSize = 14.000
+
+    roundify.Name = "roundify"
+    roundify.Parent = sampleButton
+    roundify.Active = true
+    roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+    roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    roundify.BackgroundTransparency = 1.000
+    roundify.Position = UDim2.new(0.5, 0, 0.5, 0)
+    roundify.Selectable = true
+    roundify.Size = UDim2.new(1, 0, 1, 0)
+    roundify.Image = "rbxassetid://3570695787"
+    roundify.ImageColor3 = Color3.fromRGB(93, 93, 93)
+    roundify.ScaleType = Enum.ScaleType.Slice
+    roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+    roundify.SliceScale = 0.040
